@@ -1,0 +1,24 @@
+/*
+MY COLOR PALETTE
+Color 1 - #4bc363
+Color 2 - #ffeead
+Color 3 - #ffcc5c
+Color 4 - #ff6f69
+Color 5 - #a83271
+*/
+
+button {
+    background-color: #4bc363;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    margin-top: 50px;
+}
+body {
+    background-color: #ffeead;
+    font-family: "space-mono", sans-serif;
+    text-align: center;
+}
+button:hover {
+    background-color: #ff6f69;
+}
