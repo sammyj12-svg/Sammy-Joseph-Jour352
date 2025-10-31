@@ -1,0 +1,89 @@
+/* CSS HEX 
+--slate-blue: #6a5acdff;
+--white-smoke: #f5f5f5ff;
+--steel-blue: #4682b4ff;
+--light-coral: #f08080ff;
+--platinum: #dcdcdcff;
+*/
+img {
+    width: 100%;
+    border-color: #f5f5f5;
+    border-width: thin;
+    border: 3px solid #f5f5f5;
+}
+
+body {
+    background-color: #4682b4;
+    font-family: "Open Sans", sans-serif;
+}
+
+button {
+    background-color: #f5f5f5;
+    color: #6a5acd;
+    font-family: "Open Sans", sans-serif;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    margin: auto;
+    font-weight: bold;
+    
+}
+button a {
+    text-decoration: none;
+    color: #6a5acd
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize; 
+    text-align: center;
+    color: #f5f5f5;
+    font-weight: 500;
+}
+h2 {
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize; 
+    text-align: center;
+    color: #f5f5f5;
+    font-weight: 500;
+}
+h5 a {
+    text-decoration: none;
+    color: #6a5acd;
+}
+#navigation {
+     background-color: #f5f5f5;
+}
+#experience {
+    color: #f5f5f5;
+    font-weight: bold;
+    text-align: center;
+    border:solid;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+}
+#Skills {
+   color: #f5f5f5;
+    font-weight: bold;
+    text-align: center;
+    border:solid;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+}
+#Education {
+    color: #f5f5f5;
+    font-weight: bold;
+    text-align: center;
+    border:solid;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+}
+button:hover {
+    background-color: #f08080ff;
+}
+
