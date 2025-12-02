@@ -1,18 +1,446 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <title>Title</title>
-        <link rel="stylesheet" href="styles.css" />
-        <script src="script.js"></script>
+        <title>Title goes here</title>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous" />
+
+        <link href="style.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+            rel="stylesheet" />
     </head>
+
     <body>
-        <p> Hey besties!</p>
-        <h1 class="title">Hello World</h1>
-        <div id="mainDiv">Hello Div</div>
-        <br />
-        <button onclick="buttonClicked()">Click me</button>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="fullvideo" class="col">
+                    <video id="benjohnson" loop autoplay muted>
+                        <source src="BenJohnson.mp4" type="video/mp4" />
+                    </video>
+                    <div id="videotext">
+                        <h1>Historic overview of Doping in Sport</h1>
+                        <h4>By Stephanie Hider</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="caption1">
+            Ben Johnson at the 1988 Seoul Olympics 100m final. <strong>Video by Anton & Thomas Friis </strong>
+        </p>
+        <p id="date">Dec. 21, 2023</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h4 id="intro">
+                        Doping in sport got attention in the 1960s because of two deaths. In this article we are
+                        highlighting important milestones or incidents that moved the work of antidoping forward.
+                    </h4>
+                    <p>
+                        Ever since the beginning of the definition of sport, some athletes have used some sort of
+                        doping. In ancient Olympics in Greece athletes experimented with herbal medications to enhance
+                        their performances. They also drank wine potions, used hallucinogens – often mushrooms, and ate
+                        animal hearts or testicles just to get an edge over their competitors.
+                    </p>
+
+                    <p>
+                        In newer sport history less, innocent drugs were used. French cyclists were known to use coca
+                        leaf extracts and wine. Later cocaine, strychnine and heroin were used. In 1904 the American
+                        track and field athlete almost died after using strychnine at the 1904 Summer Olympic Games in
+                        the USA. He collapsed at the finish line after ingesting two doses of the now banned substances.
+                    </p>
+                    <h1>1960s – the rise of synthetic performance-enhancing drug and deaths</h1>
+
+                    <p>
+                        The 1960s marked a turning point in doping history with the advent of synthetic
+                        performance-enhancing drugs. Amphetamines, anabolic steroids, and other substances found their
+                        way into the world of sports. Athletes, coaches, and sports organizations began to realize the
+                        potential benefits of these substances in enhancing strength, speed, and endurance.
+                    </p>
+                    <div id="chart" class="flourish-embed flourish-chart" data-src="visualisation/26567726">
+                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                        <noscript
+                            ><img
+                                src="https://public.flourish.studio/visualisation/26567726/thumbnail"
+                                width="100%"
+                                alt="chart visualization"
+                        /></noscript>
+                    </div>
+                    <p>
+                        But it was not without a cost. During the Olympic Summer Games in Rome in 1960, the Danish
+                        cyclist Knud Enemark Jensen collapsed and fell from the effects of heatstroke, hitting his head.
+                    </p>
+                    <p>
+                        He was quickly taken by military ambulance to Sant Eugenio Hospital but fell into a coma and
+                        died later that day.
+                    </p>
+                    <p>
+                        According to the IOC website, the cause of death was listed as a brain injury secondary to a
+                        skull fracture from the fall. However, great controversy surrounded the incident, as a trainer
+                        for the Danish team admitted that he had given the riders Roniacol, an amphetamine-like
+                        substance that acts as a peripheral vasodilator, although he later retracted that statement.
+                        Initial reports from the hospital noted that Enemark Jensen’s toxicology screen contained
+                        multiple drugs, including various amphetamines.
+                    </p>
+                    <p>
+                        The result of the death of the Danish cyclist was that the International Olympic Committee began
+                        testing for drugs at the 1968 Olympic Games.
+                    </p>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <img
+                                    id="Jenson"
+                                    src="cyclistcollapse.jpg"
+                                    alt="image description"
+                                    class="image"
+                                    style="height: 300px" />
+                            </div>
+
+                            <p class="caption1">
+                                Enemark Jensen collapsing during the 1968 summer Olympics.
+                                <strong>Central Press/Hulton Archive/Getty Images </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <p>
+                        Another athlete who also became a victim of drug use, was the British cyclist Tom Simpson. In
+                        the morning before the 13th stage of the 1968 version of the Tour de France, Simpson takes a
+                        cocktail of alcohol and amphetamine. Under extreme heat on the way up Mont Ventoux that cocktail
+                        ends his life only 29 years old. His passing prompted increased scrutiny of doping practices.
+                    </p>
+
+                    <h1>1970s and 80s – the steroid era</h1>
+
+                    <p>
+                        Anabolic steroids were a major factor in the rise of doping in the 1970s and 1980s. These
+                        synthetic hormones, which mimic the effects of testosterone, were used by athletes to increase
+                        muscle mass, strength, and endurance. Anabolic steroids became increasingly popular among
+                        athletes in various sports, including bodybuilding, weightlifting, and track and field.
+                    </p>
+                    <p>
+                        The East German state-sponsored doping program during this period was one of the most notorious
+                        examples of systematic doping in sports history. The program, which was overseen by the East
+                        German government, provided athletes with PEDs and other performance-enhancing substances to
+                        achieve sporting dominance. East German athletes won numerous medals at the Olympics and other
+                        international competitions, but the long-term health consequences of their doping were
+                        devastating.
+                    </p>
+                    <p>
+                        Andrea Pollack, who captured two Olympic gold medals with the 1976 East German women’s swimming
+                        team, died in March 2019 of cancer at age 57, according to Swimming World Magazine. In 1988
+                        Pollack publicly accused her coach and physicians for giving her performance enhancing drugs
+                        without her knowledge.
+                    </p>
+                    <p>
+                        Pollack was systematically doped as a teenager with Oral-Turinabol
+                        (dehydrochloromethyltestosterone), an anabolic steroid.
+                    </p>
+                    <p>
+                        Other Eastern German athletes has reported miscarriages, heart failures, liver tumors and more.
+                        Female athletes also reported that they had given birth to children with club feet or other
+                        defects, according to Global Sport Matters.
+                    </p>
+                    <p>
+                        In 1988 the steroid use got a face when the Canadian sprinter Ben Johnson broke the world record
+                        in the 100-meter race at the Olympic Games in Seoul in South Korea. However, just hours later
+                        the chocking, but maybe not surprising, news broke that Ben Johnson had used steroids – namely
+                        Stanozolol.
+                    </p>
+                    <p>
+                        When someone as prominent as Ben Johnson is being caught as a cheater at the most prestigious
+                        event at the Summer Olympic Games, the IOC couldn’t say there wasn’t a doping problem in sport.
+                    </p>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <img id="bruh" src="BenJohnson.webp" alt="image description" class="image" />
+                            </div>
+
+                            <p class="caption1">
+                                Ben Johnson after winning the 1988 Seoul 100m dash.
+                                <strong>Simon Bruty/Getty Images </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <p>
+                        It would take another ten years and another big scandal to setup an international Anti-Doping
+                        Organization.
+                    </p>
+
+                    <h1>1990s – the blood booster decade</h1>
+
+                    <p>
+                        Erythropoietin (EPO) was first isolated from the urine of anemic patients in 1977 by two Finnish
+                        scientists, Eva Bonsdorff and Eeva Jalavisto. Its gene was later isolated in 1983, and
+                        recombinant human erythropoietin (rHuEPO) was first produced in 1985. EPO became widely
+                        available in the 1990s and was used by athletes to enhance their performance, particularly in
+                        endurance sports.
+                    </p>
+                    <p>
+                        The use of EPO began in the 1980s. It quickly became a popular doping agent among endurance
+                        athletes. In the 1990s its usage increased. Especially in endurance sports.
+                    </p>
+                    <p>
+                        And how widely used it was becoming clear during the Tour de France in 1998. Soigneur Willy Voet
+                        of the pro cycle team Festina was stopped by French customs on July 8, 1998. In the car they
+                        found anabolic steroids, EPO, syringes and other products. Festina was not the only team on the
+                        Tour who transported PEDs. Ten days after Voet was stopped by customs, French police found 104
+                        ampules of EPO in a car belonging to pro-team TVM.
+                    </p>
+                    <p>
+                        Results of the analysis of the samples taken from the nine Festine riders revealed evidence of
+                        Human Growth Hormone, amphetamines, steroids, corticoids and EPO.
+                    </p>
+                    <div class="pullquote">
+                        <p class="quote"></p>
+                        <span class="quotemark">&ldquo;</span> The Festina affair...was the incident that sparked the
+                        idea of finally setting up a global Anti-Doping Organization.
+                        <p class="attribution">--Stephanie Hider</p>
+                    </div>
+                    <p>A year later World Anti-Doping Agency (WADA) was created.</p>
+                    <h1>2000s – Doping Operations and designer drugs</h1>
+                    <p>
+                        A year into the new millennium the Balco scandal rocked US sport. And not only the Olympic
+                        sports, but also Baseball. Bay Area Laboratory Co-operative (Balco) was run by Victor Conte.
+                    </p>
+                    <p>
+                        Balco came up with the design steroid THG which was undetectable until someone sent a syringe
+                        with THG in it to the US Anti-Doping Agency. Once that was in place, things really started
+                        rolling.
+                    </p>
+                    <p>
+                        Conte had many large profiles as clients. One being baseball start Barry Bonds, and another
+                        being Olympic Champion and sprinter Marion Jones.
+                    </p>
+                    <p>
+                        The latter won five Olympic gold medals at the games in Sydney in 2000, she was stripped of all
+                        medals.
+                    </p>
+                    <p>
+                        Balco is not the only big operation that rocked sport in the first two decades of the 2000. It
+                        was however the one who involved the biggest names in sports.
+                    </p>
+                    <h1>2006 – an exceptional year</h1>
+                    <p>
+                        2006 was really a year to remember when it comes to doping in sport. During the Olympic Winter
+                        Games in Turin, Italy, the Italian police raided the rooms of Austrian skiers at the request of
+                        the International Olympic Committee. In the rooms police found syringes, blood bags, bottles of
+                        saline solution and other materials that the Torino state prosecutor concluded were being used
+                        for blood transfusions.
+                    </p>
+                    <p>
+                        That raid started a police chase of the Austrian cross country coach Walter Mayer. He fled the
+                        Olympic village in a car trying to escape to his home country. Only to be caught in the town of
+                        Paternion some 250 miles from Torino.
+                    </p>
+                    <p>
+                        The dust hadn’t even settled before another big doping scandal came. This time, again, in
+                        cycling: Operation Puerto.
+                    </p>
+                    <p>
+                        On May 23, 2006, Spanish law enforcement conducted raids as part of the operation. One of the
+                        persons involved was Eufemiano Fuentes. The Spanish doctor was accused of running a widespread
+                        doping network that involved numerous athletes, particularly in the sport of cycling.
+                    </p>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <img
+                                    id="puerto"
+                                    src="Operationpuerto.webp"
+                                    alt="image description"
+                                    class="image"
+                                    style="height: 300px" />
+                            </div>
+
+                            <p class="caption1">
+                                Blood bags found during the 2006 Operation Puerto that were linked to Dr Eufemiano
+                                Fuentes. <strong>AP/GETTY IMAGES </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <p>
+                        There were indications that athletes from sports such as soccer, tennis and track and field had
+                        used the services of Doctor Fuentes, but because the evidence was destructed, no athletes from
+                        any of these sports were publicly disclosed.
+                    </p>
+                    <p>
+                        During the raid, police found thousand doses of anabolic steroids, 100 packets of blood
+                        products, and machines to manipulate and transfuse them.
+                    </p>
+                    <p>
+                        The Spanish newspaper El Mundo described the program created by Fuentes as: riders would visit
+                        Fuentes a few weeks before a race and have blood removed. Fuentes would then run the blood
+                        through a centrifuge, separating the blood plasma from the red blood cells. The cells would be
+                        re-injected shortly before competition, boosting resistance to fatigue. This is a typical
+                        description of blood doping.
+                    </p>
+                    <p>
+                        The website Cyclingnews.com believes Operation Puerto to be more significant than the 1998
+                        Festina Affair. This because it uncovered a pervasive culture of sophisticated doping going on
+                        in professional cycling.
+                    </p>
+                    <p>
+                        The operation really got attention on the start of Tour de France that year when riders like Jan
+                        Ullrich (Germany) and Ivan Basso (Italy) were told to leave the competition because their names
+                        were mentioned in the police reports.
+                    </p>
+                    <p>
+                        In the same competition US pro cyclist Floyd Landis tested positive for synthetic testosterone
+                        during the Tour de France. This would later be the start of the decline of another Tour de
+                        France winner – Lance Armstrong.
+                    </p>
+
+                    <h1>2010s - the revelation of the biggest scandals</h1>
+                    <p>
+                        The years between 2010 and 2020 will be remembered for at least two big doping scandals or
+                        operations. The US Postal Service Pro Cycling Team Doping Scandal and the Sochi 2014 Sample swap
+                        scheme.
+                    </p>
+                    <h3>US Postal Service Pro Cycling Team Doping Scandal</h3>
+                    <p>
+                        There had always been rumors around seven-time winner of the Tour de France, Lance Armstrong.
+                        The American won the biggest of all Grand Tour cycling competitions from 1999 to 2005.
+                    </p>
+                    <p>
+                        Most people hoped to believe that Armstrong did compete clean, but some people who had been
+                        close to him did tell other stories. The pro cyclist always denied any wrongdoing.
+                    </p>
+                    <p>
+                        In 2006 when Floyd Landis was caught for doping, things would slowly start to change for
+                        Armstrong.
+                    </p>
+                    <p>
+                        Landis claimed he had done nothing wrong up until 2010. In May that year the former pro cyclist
+                        sent emails to cycling officials and sponsors – including USA Cycling and the International
+                        Cycling Union (UCI). In the letter he wrote about his own doping practices and accused other
+                        riders to do the same – including Lance Armstrong.
+                    </p>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <img
+                                    id="armstrong"
+                                    src="lancearmstrong.png"
+                                    alt="image description"
+                                    class="image"
+                                    style="height: 300px" />
+                            </div>
+                            <p class="caption1">
+                                Lance Armstrong admits that he used performance-enhancing drugs while competing to Oprah
+                                Winfrey. <strong>George Burns, AFP/Getty Images</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <p>
+                        The investigation that followed resulted in a lifetime ban for Armstrong who also was stripped
+                        of his seven Tour de France titles. Armstrong continued to claim his innocent until 2013. That
+                        year he appeared in an interview with Oprah Winfrey where he confessed to have used
+                        performance-enhancing drugs and methods throughout his cycling career. The Armstrong case has
+                        later been dubbed as the “US Postal Service Pro Cycling Team Doping Scandal”.
+                    </p>
+                    <h3>The Sochi 2014 Doping Scandal</h3>
+                    <p>
+                        No doping operation in sport has been more sophisticated than the one Russia put into action
+                        before and during the Olympic Winter Games in Sochi in 2014.
+                    </p>
+                    <p>
+                        The goal of the whole operation was to make sure that any Russian medalists would return a
+                        negative sample. This was made possible thanks to a system where urine samples collected during
+                        the Winter Games were swapped with clean samples provided long before the Games.
+                    </p>
+                    <p>
+                        The swapping system involved agents from the Russian Federal Security Service (FSB), a hole in a
+                        wall and a whistleblower named Grigory Rodchenkov.
+                    </p>
+                    <p>
+                        Rodchenkov was the former director of the Moscow Anti-Doping Laboratory. He had also set up a
+                        doping program involving a cocktail of banned substances.
+                    </p>
+                    <p>
+                        According to a report done by the Canadian lawyer Richard McLaren, more than 1000 Russian
+                        athletes across various sports were involved or benefited from the doping scheme. This number
+                        includes athletes who participated in the Sochi Games as well as those in other competitions.
+                    </p>
+                    <blockquote class="twitter-tweet">
+                        <p lang="en" dir="ltr">
+                            BREAKING: Russia’s athletics team are suspended by the IAAF after doping allegation.
+                            <a href="https://t.co/fC3lt3T3rL">pic.twitter.com/fC3lt3T3rL</a>
+                        </p>
+                        &mdash; BBC Sport (@BBCSport)
+                        <a href="https://twitter.com/BBCSport/status/665280003718836224?ref_src=twsrc%5Etfw"
+                            >November 13, 2015</a
+                        >
+                    </blockquote>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <h1>2020s the decade of Intelligence and investigation</h1>
+                    <p>
+                        As of writing we are soon entering 2024 and this decade hasn’t revealed any big operations or
+                        doping scandals. Not like the ones described in this article.
+                    </p>
+                    <p>
+                        However. There are voices out there telling us athletes do use prohibited substances and that
+                        they are currently not being caught.
+                    </p>
+                    <p>
+                        In a recent Webinar, Richard McLaren claimed that most of the athletes being banned now, is a
+                        result of use of intelligence and not from sample collection. The WADA accredited laboratories
+                        statistics for 2021 show there is a decrease in the total percentage of AAFs: 0.67% in 2020
+                        (1,009 AAFs from 149,758 samples) to 0.65% (1,560 AAFs from 241,430 samples).
+                    </p>
+                    <p>
+                        An example of using intelligence and investigation is the Operation Carousel. This operation was
+                        run by the Investigation & Intelligence department at WADA. They investigated the National
+                        Anti-Doping Agency of India. It was launched in 2018 after WADA found a strange pattern in
+                        Indian sport. The investigators found it odd that Indian athletes went incommunicado after
+                        stunning performances. WADA also noticed that athletes from India had a sudden and magical
+                        improvement of performances. At the same time, they were not caught for doping. After the
+                        Jakarta Asian Games in 2018 no Indian athletes faced a single out-of-competition doping test.
+                    </p>
+                    <p>That practice changed after WADA started investigating the anti-doping work in India.</p>
+                    <p>
+                        In a report WADA published in July 2023 they wrote that the Investigation and intelligence
+                        department at WADA had found that the testing program of NADA India were not in accordance with
+                        the World Anti-Doping Code.
+                    </p>
+                    <p>
+                        The work done by the I&I department at WADA resulted in that NADA India had discovered and
+                        recorded 97 whereabout failures against 70 athletes. NADA India had also employed a dedicated
+                        investigator and two intelligence staff.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="timeline" class="flourish-embed flourish-timeline" data-src="visualisation/26562770">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript
+                ><img
+                    src="https://public.flourish.studio/visualisation/26562770/thumbnail"
+                    width="100%"
+                    alt="timeline visualization"
+            /></noscript>
+        </div>
+        <p>
+            This story is has been reproduced as a part of coursework for the Phillip Merril College of Journalism at
+            the University of Maryland, College Park. It was originally published by the
+            <a href="https://www.antidopingdatabase.com/news/historic-overview-of-doping-in-sport">
+                Anti-Doping Database
+            </a>
+        </p>
     </body>
 </html>
+
 
 
