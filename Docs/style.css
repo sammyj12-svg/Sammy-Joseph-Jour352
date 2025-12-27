@@ -104,6 +104,11 @@
     .caption:hover {
         border-color: #f08080ff;
     }
+    #art, #vid {
+        background-color: #f5f5f5;
+        text-align: center;
+        color: #6a5acd;
+    }
 }
 @media (min-width: 576px) {
     h1 {
@@ -126,6 +131,9 @@
     #israel,
     #yoseph {
         height: 250px;
+    }
+    #song, #roots {
+        height: 150px;
     }
 }
 @media (min-width: 768px) {
